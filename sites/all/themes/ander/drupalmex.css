@@ -1,0 +1,8 @@
+/*=================================================
+ESTILOS CUSTOME DRUPALMEX THEMING
+=================================================*/
+
+/* eliminado el position absolute para evitar que se los elementos se encimen*/
+.ul.tabs.primary{
+	position: relative;
+}

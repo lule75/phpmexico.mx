@@ -1,0 +1,48 @@
+;Theme info
+name = Ander
+description = Ander ready for use Industries, School, hospital, corporative, travel, fashion, jewellery and any business.
+package = Core
+version = VERSION
+core = 7.x
+screenshot = 'screenshot.png'
+
+
+
+; Add a style sheet
+stylesheets[all][] = drupalmex/drupalmex.css
+
+; Add a script
+scripts[] = drupalmex/drupalmex-scripts.js
+
+
+;Core regions
+regions[main_menu] = 'Main Menu'
+regions[mobile_menu] = 'Mobile Menu'
+regions[logo_dark] = 'Logo Dark'
+regions[header_social] = 'Header Social'
+regions[content] = 'Main Content'
+regions[sidebar] = 'Sidebar'
+regions[top_content] = 'Top Content'
+regions[home_content] = 'Home Content'
+regions[section_content] = 'Section Content'
+regions[footer_col_1] = 'Footer Col 1'
+regions[footer_col_2] = 'Footer Col 2'
+regions[footer_col_3] = 'Footer Col 3'
+
+
+
+;Features (core settings)
+features[] = 'logo'
+features[] = 'name'
+features[] = 'node_user_picture'
+features[] = 'comment_user_picture'
+features[] = 'comment_user_verification'
+
+;Breadcrumb
+settings[breadcrumb_display] = 'yes'
+settings[breadcrumb_separator] = ' &#187; '
+settings[breadcrumb_home] = 1
+
+version = "7.x"
+project = "Ander"
+datestamp = "1365027012"
