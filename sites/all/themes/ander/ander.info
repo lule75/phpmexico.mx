@@ -12,7 +12,7 @@ screenshot = 'screenshot.png'
 stylesheets[all][] = phpmex/phpmex.css
 
 ; Add a script
-scripts[] = phplmex/php-scripts.js
+scripts[] = phpmex/php-scripts.js
 
 
 ;Core regions
