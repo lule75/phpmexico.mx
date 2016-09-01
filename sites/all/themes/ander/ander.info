@@ -9,10 +9,10 @@ screenshot = 'screenshot.png'
 
 
 ; Add a style sheet
-stylesheets[all][] = drupalmex/drupalmex.css
+stylesheets[all][] = phpmex/phpmex.css
 
 ; Add a script
-scripts[] = drupalmex/drupalmex-scripts.js
+scripts[] = phplmex/php-scripts.js
 
 
 ;Core regions
