@@ -18,7 +18,7 @@ ul.social-networks{
 	color: #428bca;
 }
 .social-networks li a:hover{
-	text-decoration: underline;
+	text-decoration: underline !important;
 }
 
 .front-page #blog{
