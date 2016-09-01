@@ -8,7 +8,7 @@ ESTILOS CUSTOME DRUPALMEX THEMING
 }
 
 /*Social ul links*/
-.social-networks ul{
+ul.social-networks{
 	text-align: left;
 }
 .social-networks li{
