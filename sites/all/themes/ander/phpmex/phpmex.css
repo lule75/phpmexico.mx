@@ -39,11 +39,12 @@ div.messages{
 	margin: 40px auto 10px;
 }
 /* cambiando enlaces a púrpura*/
-a:active, a:hover, a:link, a:visited {
- color:#9B59B6;
+a, a:active, a:hover, a:link, a:visited {
+ color:#8796db;
 }
 /* Add button purple*/
 .btn.btn-purple {
-    background: #9B59B6;
+    background: #8796db;
     border: none;
+    color: #FFFFFF;
 }
