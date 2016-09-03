@@ -15,7 +15,7 @@ ul.social-networks{
 	list-style-type: disc;
 }
 .social-networks li a{
-	color: #428bca;
+	color: #8796db;
 }
 .social-networks li a:hover{
 	text-decoration: underline !important;
