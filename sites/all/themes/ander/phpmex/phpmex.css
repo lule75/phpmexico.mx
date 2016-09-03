@@ -38,3 +38,12 @@ ul.tabs.primary{
 div.messages{
 	margin: 40px auto 10px;
 }
+/* cambiando enlaces a púrpura*/
+a:active, a:hover, a:link, a:visited {
+ color:#9B59B6;
+}
+/* Add button purple*/
+.btn.btn-purple {
+    background: #9B59B6;
+    border: none;
+}
