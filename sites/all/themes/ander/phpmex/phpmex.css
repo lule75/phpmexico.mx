@@ -21,10 +21,6 @@ ul.social-networks{
 	text-decoration: underline !important;
 }
 
-.front-page #blog{
-	padding-top: 0;
-}
-
 /* eliminado el position absolute para evitar que se los elementos se encimen*/
 ul.tabs.primary{
 	position: relative;
@@ -47,4 +43,25 @@ a, a:active, a:hover, a:link, a:visited {
     background: #8796db;
     border: none;
     color: #FFFFFF;
+}
+
+/* media query only mobile */
+@media screen and (max-width: 480px) {
+  ul.tabs.primary{
+		display: block;
+	}
+	ul.tabs.primary li a{
+		display: block;
+		margin: 5px 0;
+		width: 90%;
+		margin: auto;
+	}
+}
+
+/* media query only tablet*/
+@media screen and (max-width: 990px) {
+  #footer .col_footer {
+		min-height: 100%;
+		padding-bottom: 40px;
+  }
 }
