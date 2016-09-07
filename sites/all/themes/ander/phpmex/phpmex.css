@@ -58,7 +58,18 @@ a, a:active, a:hover, a:link, a:visited {
 	}
 }
 
-/* media query only tablet*/
+/* media query only tablet */
+@media screen and (max-width: 767px) {
+  .password-strength{
+		float: none;
+		margin-bottom: 16px;
+	}
+	.form-item.form-type-password.form-item-pass-pass1.password-parent{
+		width: 100%;
+	}
+}
+
+/* media query only laptop*/
 @media screen and (max-width: 990px) {
   #footer .col_footer {
 		min-height: 100%;
