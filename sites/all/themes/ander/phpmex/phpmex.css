@@ -49,12 +49,12 @@ a, a:active, a:hover, a:link, a:visited {
 @media screen and (max-width: 480px) {
   ul.tabs.primary{
 		display: block;
+		width: 90%;
+		margin: auto;
 	}
 	ul.tabs.primary li a{
 		display: block;
 		margin: 5px 0;
-		width: 90%;
-		margin: auto;
 	}
 }
 
