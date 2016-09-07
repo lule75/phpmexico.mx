@@ -279,14 +279,14 @@ $('.main_nav').onePageNav({
   changeHash: false,
   scrollSpeed: 750,
   scrollOffset: 40,
-  /*filter: ':not(.external)',*/
+  filter: ':not(.external)',
   easing: 'swing',
 });
 
 $('#logo').onePageNav({
   scrollSpeed: 750,
   scrollOffset: 40,
-  /*filter: ':not(.external)',*/
+  filter: ':not(.external)',
   easing: 'swing',
 });
 
@@ -294,7 +294,7 @@ $('#logo_dark').onePageNav({
 
   scrollSpeed: 750,
   scrollOffset: 40,
-  /*filter: ':not(.external)',*/
+  filter: ':not(.external)',
   easing: 'swing',
 });
 
@@ -302,7 +302,7 @@ $('.responsive_nav').onePageNav({
 
   scrollSpeed: 750,
   scrollOffset: 40,
-  /*filter: ':not(.external)',*/
+  filter: ':not(.external)',
   easing: 'swing',
 });
 });
