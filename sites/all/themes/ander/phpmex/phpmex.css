@@ -68,6 +68,9 @@ a, a:active, a:hover, a:link, a:visited {
 	.form-item.form-type-password.form-item-pass-pass1.password-parent{
 		width: 100%;
 	}
+	.confirm-parent, .password-parent{
+		width: 100%;
+	}
 }
 
 /* media query only laptop*/
