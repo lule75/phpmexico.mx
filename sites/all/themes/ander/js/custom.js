@@ -1,3 +1,5 @@
+jQuery( document ).ready(function( $ ) {
+
 /*=================================================
 1 - PRELOADER 
 =================================================*/
@@ -6,7 +8,7 @@ $(window).load(function() {
   $('#status').fadeOut(); 
   $('#preloader').delay(150).fadeOut('slow'); 
  
-})
+});
 
 /*=================================================
 2 - HEADER 
@@ -33,7 +35,7 @@ jQuery(window).load(function () {
 =================================================*/
 
 
-$(document).ready(function() {
+jQuery(document).ready(function() {
 "use strict";
 var alltabs = $('#service_tab_triggers li');
 
@@ -74,7 +76,7 @@ $(".service_wrapper:first").show();
 
 
 if ( self == top ) {
-$(document).ready(function() {
+jQuery(document).ready(function() {
       $(".player").mb_YTPlayer();
     });
 }
@@ -83,7 +85,7 @@ $(document).ready(function() {
 5 - SKILLS 
 =================================================*/
 
-$(window).load(function() {
+jQuery(window).load(function() {
       var bar = $('.bar');
       $(bar).each(function() {
       var bar_percent = $(this).find('.percent').text();
@@ -97,7 +99,7 @@ $(window).load(function() {
 =================================================*/
 
 
-$(document).ready(function() {
+jQuery(document).ready(function() {
     "use strict";
     // cache container
     var $container = $('.grid');
@@ -127,7 +129,7 @@ $(document).ready(function() {
 =================================================*/
 
 
-$(document).ready(function() {
+jQuery(document).ready(function() {
    "use strict";
       $('#filters li>a').click(function() {
    $('#filters li').removeClass('active');
@@ -143,7 +145,7 @@ $(document).ready(function() {
 
 
 
-  $(window).load(function(){
+jQuery(window).load(function(){
   
   (function(){
   
@@ -221,7 +223,7 @@ $(document).ready(function() {
 9 -  PRETTY PHOTO
 =================================================*/
 
-$(window).load(function(){
+jQuery(window).load(function(){
  "use strict";
     $("a[data-gal^='prettyPhoto']").prettyPhoto();
   });
@@ -230,7 +232,7 @@ $(window).load(function(){
 10 - BUTTONS TRIGGERS FOR PORTFOLIO COLUMN SIZES
 =================================================*/
 
-$(function() {
+jQuery(function() {
 
 var cont_portfolio = $('.grid');
 
@@ -269,7 +271,7 @@ $(four_columns).click(function() {
 11 - ONE PAGE NAV
 =================================================*/
 
- $(document).ready(function(){
+jQuery(document).ready(function(){
  "use strict";
   
 $('.main_nav').onePageNav({
@@ -308,7 +310,7 @@ $('.responsive_nav').onePageNav({
  /*=================================================
 12 - CLIENTS CAROUSEL
 =================================================*/
-$(document).ready(function() {
+jQuery(document).ready(function() {
  
   $("#clients").owlCarousel({
       navigation : false, // Show next and prev buttons
@@ -322,7 +324,7 @@ $(document).ready(function() {
  /*=================================================
 13 - TESTIMONIALS CAROUSEL
 =================================================*/
-$(document).ready(function() {
+jQuery(document).ready(function() {
  
   $("#testimonials_slide").owlCarousel({
       navigation : false, // Show next and prev buttons
@@ -341,7 +343,7 @@ $(document).ready(function() {
 =================================================*/
 
 
-$(document).ready(function() {
+jQuery(document).ready(function() {
  
   $(".portfolio_slide").owlCarousel({
       navigation : false, // Show next and prev buttons
@@ -358,7 +360,7 @@ $(document).ready(function() {
 /*=================================================
 15 - BLOG CAROUSEL
 =================================================*/
-$(document).ready(function() {
+jQuery(document).ready(function() {
  
   var owl = $("#blog-carousel");
  
@@ -392,7 +394,7 @@ $(document).ready(function() {
 17 - SIDEBAR TABS BLOG
 =================================================*/
 
-$(document).ready(function() {
+jQuery(document).ready(function() {
 "use strict";
 var alltabs = $('.trigger_sidebar li');
 
@@ -430,7 +432,7 @@ $(".post-list-wrapper:first").show();  // OK
 17 - ACCORDIONS
 =================================================*/
 
-$(document).ready(function() {
+jQuery(document).ready(function() {
     $(".accordion_wrap").accordion();
 });
 
@@ -462,7 +464,7 @@ $(document).ready(function() {
 17 - TOGGLE
 =================================================*/
 
-   $(document).ready(function(){
+   jQuery(document).ready(function($){
 
       var h3trigger = $("h3.trigger");
             $(".toggle_container").hide(); 
@@ -513,7 +515,7 @@ jQuery('.mobileAreaMenu a').click(function(){
 
 //RESPONSIVE STYLE 4 VIDEO RESPONSIVE BACKGROUND
 
-$(document).ready(function() {
+jQuery(document).ready(function($) {
   
 "use strict";
 var height_video = $(window).width();
@@ -523,7 +525,7 @@ $('.video_slide').css("height",height_responsive);
 });
 
 
-$(window).resize(function() {
+jQuery(window).resize(function() {
   "use strict";
 var height_video = $(window).width();
 var height_responsive = (height_video / 1.79011) + 1;
@@ -535,7 +537,7 @@ $('.video_slide').css("height",height_responsive);
 
 //WAYPOINTS ANIMATIONS
 
-$(document).ready(function() {
+jQuery(document).ready(function($) {
 
   $("[data-animation-target^='2']").waypoint(function() {
     //$("[data-animation-target^='2']").addClass('animated fadeInDown');
@@ -663,3 +665,5 @@ $("[data-animation-target^='21']").waypoint(function() {
   });
 });
 
+
+});

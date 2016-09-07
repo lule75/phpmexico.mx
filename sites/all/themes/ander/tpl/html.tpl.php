@@ -27,8 +27,12 @@
 	<div id="preloader">
 	    <div id="status">&nbsp;</div>
 	</div>
-	<?php print $page_top; ?><?php print $page; ?><?php print $page_bottom; ?>
+	<?php print $page_top; ?>
+	<?php print $page; ?>
+
 	<?php print $scripts; ?>
+	<?php print $page_bottom; ?>
+
 	<?php 
 		if(!empty($_REQUEST["switcher"])){
 			$switcher = $_REQUEST["switcher"];
