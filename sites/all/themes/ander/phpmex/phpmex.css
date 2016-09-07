@@ -47,7 +47,12 @@ a, a:active, a:hover, a:link, a:visited {
 
 /* media query only mobile */
 @media screen and (max-width: 480px) {
-  ul.tabs.primary{
+
+}
+
+/* media query only tablet */
+@media screen and (max-width: 767px) {
+	ul.tabs.primary{
 		display: block;
 		width: 90%;
 		margin: auto;
@@ -56,10 +61,6 @@ a, a:active, a:hover, a:link, a:visited {
 		display: block;
 		margin: 5px 0;
 	}
-}
-
-/* media query only tablet */
-@media screen and (max-width: 767px) {
   .password-strength{
 		float: none;
 		margin-bottom: 16px;
