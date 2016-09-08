@@ -420,7 +420,7 @@ function ander_preprocess_html(&$variables) {
 	
 	//add js
 	drupal_add_js(path_to_theme().'/js/navi-update.js', array('type' => 'file', 'scope' => 'header'));
-	drupal_add_js('http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js', array('type' => 'external', 'scope' => 'header'));
+	#drupal_add_js('http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js', array('type' => 'external', 'scope' => 'header'));
 	drupal_add_js('http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js', array('type' => 'external', 'scope' => 'header'));
 	drupal_add_js(path_to_theme().'/js/bootstrap.min.js', array('type' => 'file', 'scope' => 'header'));
 	drupal_add_js(path_to_theme().'/js/jquery.prettyPhoto.js', array('type' => 'file', 'scope' => 'header'));
