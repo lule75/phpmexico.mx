@@ -47,7 +47,9 @@ a, a:active, a:hover, a:link, a:visited {
 
 /* media query only mobile */
 @media screen and (max-width: 480px) {
-
+	#logo{
+		max-width: 208px;
+	}
 }
 
 /* media query only tablet */
