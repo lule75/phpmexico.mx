@@ -11,7 +11,7 @@ jQuery(function(){
 		jQuery(this).html(jQuery(this).text());
 	});
 
-	jQuery('body.front-page .transparent_menu ul li:not(:last-child) a.external').removeClass('external');
+	/*jQuery('body.front-page .transparent_menu ul li:not(:last-child) a.external').removeClass('external');*/
 
 	var i = 2;
 	jQuery('.animated').each(function(){
