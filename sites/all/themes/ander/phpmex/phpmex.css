@@ -73,8 +73,11 @@ a, a:active, a:hover, a:link, a:visited {
 	.confirm-parent, .password-parent{
 		width: 100%;
 	}
+	/*Contact form*/
+	.form.contact-form input{
+	 width:  100%;
+	}
 }
-
 /* media query only laptop*/
 @media screen and (max-width: 990px) {
   #footer .col_footer {
