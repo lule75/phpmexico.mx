@@ -26,8 +26,17 @@ global $base_url;
 	<div class="process_wrapper">
 		<div class="container">
 			<div class="row">
-        		<?php print render($page['content']);?>
-        	</div>
+                <?php if($page['sidebar']): ?>
+                <div class="sidebar">
+                    <div class="col-md-4">
+                        <?php print render($page['sidebar']);?>
+                    </div>
+                </div>
+                <?php endif; ?>
+        		
+                <?php print render($page['content']);?>
+
+            </div>
         </div>
     </div>
 </div>

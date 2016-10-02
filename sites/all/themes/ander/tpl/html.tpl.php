@@ -22,7 +22,7 @@
 	endif;
 ?>
 </head>
-<body class="<?php if($is_front): print 'front-page'; endif;?>">
+<body class="<?php if($is_front): print 'front-page'; endif;?> <?php print $classes; ?>" <?php print $attributes;?> >
 	<div id="top"></div>
 	<div id="preloader">
 	    <div id="status">&nbsp;</div>
