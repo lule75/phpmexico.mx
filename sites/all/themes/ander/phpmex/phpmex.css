@@ -100,4 +100,10 @@ a, a:active, a:hover, a:link, a:visited {
 .maintenance-page{
 	height: 98vh;
 	background: #000;
+	background-image: url(../images/maintenance_mode.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.maintenance-page #page{
+	display: none;
 }
