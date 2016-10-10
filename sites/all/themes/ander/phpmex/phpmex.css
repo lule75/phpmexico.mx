@@ -96,3 +96,8 @@ a, a:active, a:hover, a:link, a:visited {
 		padding-bottom: 40px;
   }
 }
+/* Modo Mantenimiento*/
+.maintenance-page{
+	height: 98vh;
+	background: #000;
+}
