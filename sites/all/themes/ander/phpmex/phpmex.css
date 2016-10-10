@@ -7,6 +7,11 @@ h1,h2,h3,h4,h5,
 .page_subtitle{
 	color: #4a4a4a;
 }
+/* reduciendo el padding div section en interiores*/
+.section{
+	padding: 40px 0 160px;
+}
+
 
 /*Eliminando la linea de el menu para evitar que se encime al logo*/
 .admin-menu header.transparent_menu, .admin-menu header.white_menu{
@@ -82,11 +87,6 @@ a, a:active, a:hover, a:link, a:visited {
 	/*Contact form*/
 	.form.contact-form input{
 	 width:  100%;
-	}
-
-	/* reduciendo el padding div section en interiores*/
-	.section{
-		padding: 40px 0 160px;
 	}
 }
 /* media query only laptop*/
