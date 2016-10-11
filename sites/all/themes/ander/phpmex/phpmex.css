@@ -56,10 +56,28 @@ a, a:active, a:hover, a:link, a:visited {
     color: #FFFFFF;
 }
 
+/*Parteners block*/
+.view-id-partners .views-row{
+	margin: auto;
+	width: 33%;
+	display: inline-block;
+}
+.view-id-partners .views-row .views-field-field-image{
+	max-width: 250px;
+	width: 100%;
+	margin: auto;
+}
+
 /* media query only mobile */
 @media screen and (max-width: 480px) {
 	#logo{
 		max-width: 208px;
+	}
+	/*Partners block*/
+	.view-id-partners .views-row{
+		width: 300px;
+		margin: auto;
+		display: block;
 	}
 }
 
