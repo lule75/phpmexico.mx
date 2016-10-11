@@ -57,8 +57,11 @@ a, a:active, a:hover, a:link, a:visited {
 }
 
 /*Parteners block*/
-.view-id-partners{
-	margin-top: 60px;
+#block-views-partners-block{
+	margin: 20px auto 40px;
+}
+#block-views-partners-block .page_title{
+	margin-bottom: 36px;
 }
 .view-id-partners .views-row{
 	margin: auto;
