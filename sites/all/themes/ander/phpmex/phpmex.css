@@ -58,10 +58,16 @@ a, a:active, a:hover, a:link, a:visited {
 
 /*Parteners block*/
 #block-views-partners-block{
-	margin: 20px auto 40px;
+	margin: 20px auto 50px;
 }
 #block-views-partners-block .page_title{
-	margin-bottom: 36px;
+	margin-bottom: 28px;
+}
+#block-views-partners-block .page_title h1{
+	font-size: 22px !important;
+  letter-spacing: normal;
+  margin-top: 0;
+	font-weight: 400;
 }
 .view-id-partners .views-row{
 	margin: auto;
