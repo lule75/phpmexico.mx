@@ -101,7 +101,24 @@ a, a:active, a:hover, a:link, a:visited {
 .social-content{
 	max-width: 354px;
 	margin: auto;
+	position: relative;
 }
+.social-content:before{
+	transition: opacity .3s ease;
+	content: "";
+	height: 100%;
+	left: 0;
+	overflow: hidden;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	background: red;
+	max-width: 354px;
+}
+
+
+
 
 /* media query only mobile */
 @media screen and (max-width: 480px) {
