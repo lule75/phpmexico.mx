@@ -79,6 +79,29 @@ a, a:active, a:hover, a:link, a:visited {
 	width: 100%;
 	margin: auto;
 }
+/* Modo Mantenimiento*/
+.maintenance-page{
+	height: 98vh;
+	background: #000;
+	background-image: url(../images/maintenance_mode.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.maintenance-page #page{
+	display: none;
+}
+/* welcome page css */
+.social-info{
+	position: absolute;
+	top: 50%;
+	text-align: center;
+	left: 0;
+	right: 0;
+}
+.social-content{
+	max-width: 354px;
+	margin: auto;
+}
 
 /* media query only mobile */
 @media screen and (max-width: 480px) {
@@ -125,15 +148,4 @@ a, a:active, a:hover, a:link, a:visited {
 		min-height: 100%;
 		padding-bottom: 40px;
   }
-}
-/* Modo Mantenimiento*/
-.maintenance-page{
-	height: 98vh;
-	background: #000;
-	background-image: url(../images/maintenance_mode.png);
-	background-repeat: no-repeat;
-	background-position: center;
-}
-.maintenance-page #page{
-	display: none;
 }
