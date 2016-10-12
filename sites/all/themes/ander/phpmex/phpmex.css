@@ -116,7 +116,12 @@ a, a:active, a:hover, a:link, a:visited {
 	transition: opacity .3s ease;
 	opacity: .9;
 	background: #1C90F3;
-
+}
+.social-content.face:hover:before{
+	background: #3B579D;
+}
+.social-content.slack:hover:before{
+	background: #CD0D5A;
 }
 
 .social-info{
@@ -134,6 +139,10 @@ a, a:active, a:hover, a:link, a:visited {
   padding: 10px;
   border-radius: 50%;
   color: #fff;
+}
+.fa.fa-facebook.fa-2x{
+	font-size: 26px;
+  padding: 10px 16px;
 }
 .social-info .name{
 	color: #fff;
