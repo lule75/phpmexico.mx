@@ -90,14 +90,9 @@ a, a:active, a:hover, a:link, a:visited {
 .maintenance-page #page{
 	display: none;
 }
+
+
 /* welcome page css */
-.social-info{
-	position: absolute;
-	top: 50%;
-	text-align: center;
-	left: 0;
-	right: 0;
-}
 .social-content{
 	max-width: 354px;
 	margin: auto;
@@ -109,16 +104,41 @@ a, a:active, a:hover, a:link, a:visited {
 	height: 100%;
 	left: 0;
 	overflow: hidden;
-	opacity: 0;
+	opacity: .7;
 	position: absolute;
 	top: 0;
 	width: 100%;
-	background: red;
+	background: black;
 	max-width: 354px;
 }
 
+.social-content:hover:before{
+	transition: opacity .3s ease;
+	opacity: .9;
+	background: #1C90F3;
 
+}
 
+.social-info{
+	position: absolute;
+	text-align: center;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	height: 78px;
+	margin: auto;
+}
+.social-info .fa-2x{
+	border: 3px solid #fff;
+  padding: 10px;
+  border-radius: 50%;
+  color: #fff;
+}
+.social-info .name{
+	color: #fff;
+	font-weight: bold;
+}
 
 /* media query only mobile */
 @media screen and (max-width: 480px) {
