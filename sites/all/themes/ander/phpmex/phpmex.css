@@ -188,6 +188,9 @@ a, a:active, a:hover, a:link, a:visited {
 	 width:  100%;
 	}
 	/* welcome page social blocks*/
+	#node-667 p{
+		padding: 0 14px;
+	}
 	.socials-block .social-networks{
 		margin: 20px auto;
 	}
