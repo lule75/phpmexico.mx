@@ -140,7 +140,7 @@ a, a:active, a:hover, a:link, a:visited {
   border-radius: 50%;
   color: #fff;
 }
-.fa.fa-facebook.fa-2x{
+.social-info .fa-facebook.fa-2x{
 	font-size: 26px;
   padding: 10px 16px;
 }
