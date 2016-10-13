@@ -119,6 +119,7 @@ a, a:active, a:hover, a:link, a:visited {
 /* Form css */
 input, button, select, textarea{
 	margin: 0 0 20px 0;
+	padding: 0 6px;
 }
 .form-textarea-wrapper,
 .page-contact .btn.btn-purple{
@@ -248,9 +249,7 @@ input, button, select, textarea{
 	.contact-form input.btn{
 		max-width: 156px;
 	}
-	.contact-form input#comment-email{
-		float: none;
-	}
+
 }
 /* media query only laptop*/
 @media screen and (max-width: 990px) {
@@ -258,4 +257,7 @@ input, button, select, textarea{
 		min-height: 100%;
 		padding-bottom: 40px;
   }
+	.contact-form input#comment-email{
+		float: none;
+	}
 }
