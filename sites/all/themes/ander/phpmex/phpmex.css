@@ -120,10 +120,14 @@ a, a:active, a:hover, a:link, a:visited {
 input, button, select, textarea{
 	margin: 0 0 20px 0;
 	padding: 0 6px;
+	display: block;
 }
 .form-textarea-wrapper,
 .page-contact .btn.btn-purple{
 	margin-bottom: 20px;
+}
+.contact-form{
+	padding: 0 10px;
 }
 .contact-form input#comment-email{
 	float: right;
@@ -239,9 +243,6 @@ input, button, select, textarea{
 	}
 	.socials-block .social-networks{
 		margin: 20px auto;
-	}
-	.contact-form{
-		padding: 0 10px;
 	}
 	.contact-form input{
 		width: 100%;
