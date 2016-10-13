@@ -84,14 +84,15 @@ a, a:active, a:hover, a:link, a:visited {
 .container-fluid.purple-back{
 	background: #6082bb;
 	color: #fff;
-	padding-bottom: 40px;
 }
 .container-fluid.purple-back h1,
 .container-fluid.purple-back h2,
 .container-fluid.purple-back h4{
 	color: #fff;
 }
-
+.container-fluid.purple-back .welcome-text{
+	margin-bottom: 50px;
+}
 
 /* Modo Mantenimiento*/
 .maintenance-page{
