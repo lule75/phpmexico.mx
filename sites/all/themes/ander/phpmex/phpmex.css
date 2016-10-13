@@ -124,6 +124,9 @@ input, button, select, textarea{
 .page-contact .btn.btn-purple{
 	margin-bottom: 20px;
 }
+.contact-form input#comment-email{
+	float: right;
+}
 
 /* welcome page css */
 
@@ -237,10 +240,16 @@ input, button, select, textarea{
 		margin: 20px auto;
 	}
 	.contact-form{
-		padding: 10px 0;
+		padding: 0 10px;
 	}
 	.contact-form input{
 		width: 100%;
+	}
+	.contact-form input.btn{
+		max-width: 156px;
+	}
+	.contact-form input#comment-email{
+		float: none;
 	}
 }
 /* media query only laptop*/
