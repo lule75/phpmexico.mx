@@ -107,7 +107,7 @@ a, a:active, a:hover, a:link, a:visited {
 
 /* welcome page css */
 
-.socials-block .social-networks{
+.socials-block.social-networks{
 	height: 180px;
 	overflow: hidden;
 	position: relative;
@@ -130,6 +130,8 @@ a, a:active, a:hover, a:link, a:visited {
 	width: 100%;
 	background: black;
 	max-width: 354px;
+	margin: auto;
+  right: 0;
 }
 
 .social-content:hover:before{
