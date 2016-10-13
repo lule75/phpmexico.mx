@@ -27,7 +27,10 @@ h1,h2,h3,h4,h5,
 .admin-menu header.transparent_menu, .admin-menu header.white_menu{
 	border: none;
 }
-
+/* Primary tabs margin */
+#tasks{
+	margin-top: 10px;
+}
 /*Social ul links*/
 ul.social-networks{
 	text-align: left;
