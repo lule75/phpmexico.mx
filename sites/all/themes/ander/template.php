@@ -48,6 +48,9 @@ function ander_preprocess_page(&$vars){
 		unset($vars['page']['content']['system_main']['no_content']);
 	}
 
+    $vars['primary_local_tasks'] = menu_primary_local_tasks();
+    $vars['secondary_local_tasks'] = menu_secondary_local_tasks();
+
 }
 
 //alter menu
