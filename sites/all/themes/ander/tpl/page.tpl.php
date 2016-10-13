@@ -14,13 +14,30 @@ global $base_url;
         </div>
     </div>
 </div>
+
 <?php 
-    if (!empty($tabs['#primary']) || !empty($tabs['#secondary'])):
-        print render($tabs);
+
+    if ($primary_local_tasks || $secondary_local_tasks):
+        echo '<div id="tasks" class="container">';
+
+        if ($primary_local_tasks):
+            echo '<ul class="nav nav-pills">';
+            print render($primary_local_tasks);
+            echo '</ul>';
+        endif;
+
+        if ($secondary_local_tasks):
+            echo '<ul class="nav nav-tabs">';
+            print render($secondary_local_tasks);
+            echo '</ul>';
+        endif;
+        echo '</div>';
     endif;
+ 
     print $messages;
     //unset($page['content']['system_main']['default_message']);
 ?>
+
 <?php if($page['content']): ?>
 <div class="section">
 	<div class="process_wrapper">
