@@ -116,6 +116,14 @@ a, a:active, a:hover, a:link, a:visited {
 	display: none;
 }
 
+/* Form css */
+input, button, select, textarea{
+	margin: 0 0 20px 0;
+}
+.form-textarea-wrapper,
+.page-contact .btn.btn-purple{
+	margin-bottom: 20px;
+}
 
 /* welcome page css */
 
@@ -227,6 +235,12 @@ a, a:active, a:hover, a:link, a:visited {
 	}
 	.socials-block .social-networks{
 		margin: 20px auto;
+	}
+	.contact-form{
+		padding: 10px 0;
+	}
+	.contact-form input{
+		width: 100%;
 	}
 }
 /* media query only laptop*/
