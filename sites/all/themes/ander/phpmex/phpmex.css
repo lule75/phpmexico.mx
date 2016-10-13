@@ -79,6 +79,19 @@ a, a:active, a:hover, a:link, a:visited {
 	width: 100%;
 	margin: auto;
 }
+
+/*Content purple blocks*/
+.container-fluid .purple-back{
+	background: #6082bb;
+	color: #fff;
+	padding-bottom: 20px;
+}
+.container-fluid .purple-back h1,
+.container-fluid .purple-back h2{
+	color: #fff;
+}
+
+
 /* Modo Mantenimiento*/
 .maintenance-page{
 	height: 98vh;
@@ -93,10 +106,17 @@ a, a:active, a:hover, a:link, a:visited {
 
 
 /* welcome page css */
+
+.socials-block .social-networks{
+	height: 180px;
+	overflow: hidden;
+	position: relative;
+}
+
 .social-content{
 	max-width: 354px;
 	margin: auto;
-	position: relative;
+
 }
 .social-content:before{
 	transition: opacity .3s ease;
