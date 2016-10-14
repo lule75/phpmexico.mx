@@ -195,8 +195,11 @@ input, button, select, textarea{
 
 /*===== EVENTOS ====*/
 .page-events .view-events .views-row{
-	margin-bottom: 10px;
+	padding-bottom: 20px;
 	border-bottom: 1px dashed #c4c4c4;
+}
+.page-events .view-events .views-row .links.inline{
+	margin-top: 20px
 }
 
 /* media query only mobile */
