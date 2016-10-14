@@ -193,6 +193,11 @@ input, button, select, textarea{
 	font-weight: bold;
 }
 
+/*===== EVENTOS ====*/
+.page-events .view-events .views-row{
+	border-bottom: 1px dashed #c4c4c4;
+}
+
 /* media query only mobile */
 @media screen and (max-width: 480px) {
 	#logo{
