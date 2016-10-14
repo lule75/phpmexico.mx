@@ -4,11 +4,11 @@ Drupalmex JS
 
 (function ($, Drupal) {
 
-  // Preloader
+  // Adding classes container o button
   Drupal.behaviors.messagesClass = {
     attach: function (context, settings) {
       $(".messages").addClass("container");
-      $(".contact-form #edit-submit").addClass("btn btn-purple");
+      $(".contact-form #edit-submit, .page-events .node-readmore a").addClass("btn btn-purple");
     }
   };
 

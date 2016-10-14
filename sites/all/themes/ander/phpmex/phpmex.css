@@ -195,6 +195,7 @@ input, button, select, textarea{
 
 /*===== EVENTOS ====*/
 .page-events .view-events .views-row{
+	margin-bottom: 10px;
 	border-bottom: 1px dashed #c4c4c4;
 }
 
