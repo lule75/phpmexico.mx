@@ -18,7 +18,7 @@ h1,h2,h3,h4,h5,
 th{
 	font-weight: bold;
 	font-size: 1.1em;
-	background: #8796db;
+	background: #8796db !important;
 	color: #fff;
 	text-shadow: none;
 	font-weight: bold;
