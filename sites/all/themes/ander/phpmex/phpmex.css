@@ -234,6 +234,15 @@ ol.manifest.list li i{
 blockquote{
 	margin: 30px;
 }
+
+/*== ROADMAP CSS ==*/
+.roadmap ul{
+	padding-left: 20px
+}
+.roadmap ul li{
+	list-style-type: disc;
+	margin-bottom: 10px;
+}
 /*===== MEDIA QUERY CONFIG ===*/
 
 /* media query only mobile */
