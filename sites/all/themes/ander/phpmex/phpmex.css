@@ -209,7 +209,7 @@ ol.list{
 ol.list li{
 	list-style-type: decimal;
 }
-ol.manifest-list li{
+ol.manifest.list li{
 	margin-bottom: 20px;
 }
 ol.manifest-list li i{
