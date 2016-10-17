@@ -15,7 +15,20 @@ h1,h2,h3,h4,h5,
 .purple{
 	color: #8796db;
 }
-
+th{
+	font-weight: bold;
+	font-size: 1.1em;
+	background: #8796db;
+	color: #fff;
+	text-shadow: none;
+	font-weight: bold;
+}
+.big-title{
+	text-align: center;
+	font-size: 2.4em;
+	margin: 46px 0 20px;
+	text-align: center;
+}
 
 /*Eliminando la linea de el menu para evitar que se encime al logo*/
 .admin-menu header.transparent_menu, .admin-menu header.white_menu{
