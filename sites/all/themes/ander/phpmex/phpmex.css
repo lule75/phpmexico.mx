@@ -12,6 +12,9 @@ h1,h2,h3,h4,h5,
 .section{
 	padding: 40px 0 160px;
 }
+.purple{
+	color: #8796db;
+}
 
 
 /*Eliminando la linea de el menu para evitar que se encime al logo*/
