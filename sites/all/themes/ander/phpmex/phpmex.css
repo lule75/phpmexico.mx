@@ -202,6 +202,24 @@ input, button, select, textarea{
 	margin-top: 20px
 }
 
+ol.list{
+	padding-left: 40px;
+}
+
+ol.list li{
+	list-style-type: decimal;
+}
+ol.manifest-list li{
+	margin-bottom: 20px;
+}
+ol.manifest-list li i{
+	font-style: italic;
+}
+blockquote{
+	margin: 30px;
+}
+/*===== MEDIA QUERY CONFIG ===*/
+
 /* media query only mobile */
 @media screen and (max-width: 480px) {
 	#logo{
