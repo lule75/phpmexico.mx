@@ -66,14 +66,12 @@ ul.social-networks{
 ul.tabs.primary{
 	position: relative;
 }
-
-
 div.messages{
 	margin: 40px auto 10px;
 }
 
 
-/*Parteners block*/
+/*== Parteners block ==*/
 #block-views-partners-block{
 	margin: 20px auto 50px;
 }
@@ -88,6 +86,7 @@ div.messages{
 }
 .view-id-partners .view-content{
 	display: flex;
+	justify-content: space-around;
 }
 .view-id-partners .views-row .views-field-field-image{
 	max-width: 250px;
@@ -95,7 +94,7 @@ div.messages{
 	margin: auto;
 }
 
-/*Content purple blocks*/
+/*=== Content purple blocks ===*/
 .container-fluid.purple-back{
 	background: #6082bb;
 	color: #fff;
@@ -109,19 +108,9 @@ div.messages{
 	margin-bottom: 50px;
 }
 
-/* Modo Mantenimiento*/
-.maintenance-page{
-	height: 98vh;
-	background: #000;
-	background-image: url(../images/maintenance_mode.png);
-	background-repeat: no-repeat;
-	background-position: center;
-}
-.maintenance-page #page{
-	display: none;
-}
 
-/* Form css */
+
+/*=== Form css ===*/
 input, button, select, textarea{
 	margin: 0 0 20px 0;
 	padding: 0 6px;
@@ -138,8 +127,7 @@ input, button, select, textarea{
 	float: right;
 }
 
-/* welcome page css */
-
+/*=== welcome page css ===*/
 .socials-block .social-networks{
 	height: 180px;
 	overflow: hidden;
@@ -247,6 +235,18 @@ th{
 	color: #fff;
 	text-shadow: none;
 	font-weight: bold;
+}
+
+/*== Modo Mantenimiento  ==*/
+.maintenance-page{
+	height: 98vh;
+	background: #000;
+	background-image: url(../images/maintenance_mode.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.maintenance-page #page{
+	display: none;
 }
 
 
