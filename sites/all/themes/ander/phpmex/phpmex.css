@@ -8,21 +8,7 @@ h1,h2,h3,h4,h5,
 	color: #4a4a4a;
 }
 
-/* reduciendo el padding div section en interiores*/
-.section{
-	padding: 40px 0 160px;
-}
-.purple{
-	color: #8796db;
-}
-th{
-	font-weight: bold;
-	font-size: 1.1em;
-	background: #8796db !important;
-	color: #fff;
-	text-shadow: none;
-	font-weight: bold;
-}
+/*=== Big size title class that appears in roadmap basic page ==*/
 .big-title{
 	text-align: center;
 	font-size: 2.4em;
@@ -30,15 +16,39 @@ th{
 	text-align: center;
 }
 
-/*Eliminando la linea de el menu para evitar que se encime al logo*/
+
+/*=== Defining purple color in theme links ===*/
+a, a:active, a:hover, a:link, a:visited {
+ color:#8796db;
+}
+/*=== Defining the purple in buttons ===*/
+.btn.btn-purple {
+    background: #8796db;
+    border: none;
+    color: #FFFFFF;
+}
+/*=== Modifying the purple color in hover input elements  ===*/
+.form-actions.form-wrapper input.form-submit:hover{
+	background-color: #00cae9;
+}
+
+
+/*====== reduciendo el padding div section en interiores ===*/
+.section{
+	padding: 40px 20px 160px;
+}
+
+/*=== Eliminando la linea de el menu para evitar que se encime al logo ===*/
 .admin-menu header.transparent_menu, .admin-menu header.white_menu{
 	border: none;
 }
-/* Primary tabs margin */
+
+/*=== Primary tabs margin ====*/
 #tasks{
 	margin-top: 10px;
 }
-/*Social ul links*/
+
+/*=== Social ul links ===*/
 ul.social-networks{
 	text-align: left;
 }
@@ -52,29 +62,16 @@ ul.social-networks{
 	text-decoration: underline !important;
 }
 
-/* eliminado el position absolute para evitar que se los elementos se encimen*/
+/*=== Eliminado el position absolute para evitar que se los elementos se encimen  en las primary tabs===*/
 ul.tabs.primary{
 	position: relative;
 }
 
-/*modifcado color de el input de login al hover*/
-.form-actions.form-wrapper input.form-submit:hover{
-	background-color: #00cae9;
-}
 
 div.messages{
 	margin: 40px auto 10px;
 }
-/* cambiando enlaces a púrpura*/
-a, a:active, a:hover, a:link, a:visited {
- color:#8796db;
-}
-/* Add button purple*/
-.btn.btn-purple {
-    background: #8796db;
-    border: none;
-    color: #FFFFFF;
-}
+
 
 /*Parteners block*/
 #block-views-partners-block{
@@ -243,6 +240,19 @@ blockquote{
 	list-style-type: disc;
 	margin-bottom: 10px;
 }
+
+/*=== TABLE VALUE==*/
+th{
+	font-weight: bold;
+	font-size: 1.1em;
+	background: #8796db !important;
+	color: #fff;
+	text-shadow: none;
+	font-weight: bold;
+}
+
+
+
 /*===== MEDIA QUERY CONFIG ===*/
 
 /* media query only mobile */
@@ -295,6 +305,11 @@ blockquote{
 	}
 	.contact-form input.btn{
 		max-width: 156px;
+	}
+
+	.blog_title_heading h1{
+		display: block;
+		line-height: 1.4em;
 	}
 
 }
