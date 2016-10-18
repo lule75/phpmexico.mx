@@ -267,11 +267,6 @@ th{
 		margin: auto;
 		display: block;
 	}
-
-	/*== SKILLS BLOCK ==*/
-	.skill{
-		margin-bottom: 40px;
-	}
 	/*== CAPCHA RESPONSIVE STYLES ==*/
 	.g-recaptcha > div{
 		 width: 216px !important;
@@ -324,6 +319,10 @@ th{
 	.blog_title_heading h1{
 		display: block;
 		line-height: 1.4em;
+	}
+	/*== SKILLS BLOCK ==*/
+	.skill{
+		margin-bottom: 40px;
 	}
 
 }
