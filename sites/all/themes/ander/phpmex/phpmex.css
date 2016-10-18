@@ -249,6 +249,11 @@ th{
 	display: none;
 }
 
+/*== SKILLS BLOCK ==*/
+.skill{
+	margin-bottom: 40px;
+}
+
 
 
 /*===== MEDIA QUERY CONFIG ===*/
@@ -320,11 +325,6 @@ th{
 		display: block;
 		line-height: 1.4em;
 	}
-	/*== SKILLS BLOCK ==*/
-	.skill{
-		margin-bottom: 40px;
-	}
-
 }
 /* media query only laptop*/
 @media screen and (max-width: 990px) {
