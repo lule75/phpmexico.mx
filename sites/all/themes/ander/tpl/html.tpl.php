@@ -52,7 +52,13 @@
   "@context": "http://schema.org",
   "@type": "Organization",
   "url": "http://www.phpmexico.mx",
-  "logo": "http://phpmexico.mx/sites/default/files/logo_huichol.png"
+  "logo": "http://phpmexico.mx/sites/default/files/logo_huichol.png",
+  "sameAs": [
+    "https://www.facebook.com/pehacheperos",
+    "https://twitter.com/phpmx",
+    "https://www.meetup.com/PHP-The-Right-Way",
+    "https://phpmx.slack.com/"
+  ]
 }
 </script>
 
