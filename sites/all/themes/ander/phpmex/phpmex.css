@@ -86,10 +86,8 @@ div.messages{
   margin-top: 0;
 	font-weight: 400;
 }
-.view-id-partners .views-row{
-	margin: auto;
-	width: 33%;
-	display: inline-block;
+.view-id-partners .view-content{
+	display: flex;
 }
 .view-id-partners .views-row .views-field-field-image{
 	max-width: 250px;
@@ -261,6 +259,9 @@ th{
 		max-width: 208px;
 	}
 	/*Partners block*/
+	.view-id-partners .view-content{
+		display: block;
+	}
 	.view-id-partners .views-row{
 		width: 300px;
 		margin: auto;
