@@ -47,6 +47,15 @@
 		}
 		
 	?>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "url": "http://www.phpmexico.mx",
+  "logo": "http://phpmexico.mx/sites/default/files/logo_huichol.png"
+}
+</script>
+
 </body>
 </html>
 
