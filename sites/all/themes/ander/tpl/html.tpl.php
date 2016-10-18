@@ -56,6 +56,16 @@
 }
 </script>
 
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "WebSite",
+  "name": "PHP México",
+  "alternateName": "PHP Mexico",
+  "url": "http://www.phpmexico.mx"
+}
+</script>
+
 </body>
 </html>
 
