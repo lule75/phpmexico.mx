@@ -266,6 +266,14 @@ th{
 		margin: auto;
 		display: block;
 	}
+	/*== CAPCHA RESPONSIVE STYLES ==*/
+	.g-recaptcha > div{
+		 width: 216px !important;
+	}
+	.g-recaptcha iframe{
+		width: 100% !important;
+	}
+
 }
 
 /* media query only tablet */
