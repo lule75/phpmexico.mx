@@ -26,6 +26,7 @@ a, a:active, a:hover, a:link, a:visited {
     background: #8796db;
     border: none;
     color: #FFFFFF;
+		white-space: inherit;
 }
 /*=== Modifying the purple color in hover input elements  ===*/
 .form-actions.form-wrapper input.form-submit:hover{
@@ -217,7 +218,6 @@ ol.manifest.list li i{
 blockquote{
 	margin: 30px;
 }
-
 /*== ROADMAP CSS ==*/
 .roadmap ul{
 	padding-left: 20px
