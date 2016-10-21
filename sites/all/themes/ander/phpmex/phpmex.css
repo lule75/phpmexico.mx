@@ -275,6 +275,9 @@ th{
 .view-id-search ul li:nth-last-child(-n+3){
 	border-bottom: 1px solid #e0e0e0;
 }
+.view-id-search ul li.views-row-last{
+	border-right: 1px solid #e0e0e0;
+}
 
 /*===== MEDIA QUERY CONFIG ===*/
 
