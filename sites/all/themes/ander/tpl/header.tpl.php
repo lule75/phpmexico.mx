@@ -15,7 +15,7 @@ if(arg(0) == 'node') {
         <div class="row">
             <div class="col-md-12">
                 <div id="logo">
-                    <a href="#top"><img src="<?php print $logo; ?>" alt="logo"></a>
+                    <a href="/#top"><img src="<?php print $logo; ?>" alt="logo"></a>
                 </div>
                 <div id="logo_dark">
                     <?php print render($page['logo_dark']);?>
