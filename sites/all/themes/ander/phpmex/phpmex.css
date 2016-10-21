@@ -260,14 +260,14 @@ th{
 }
 .view-id-search ul li{
 	width: 33.3333%;
-	background: #f2f2f2;
+	background: #fafafa;
 	border-top: 1px solid #e0e0e0;
 	border-left: 1px solid #e0e0e0;
 	box-sizing: border-box;
 	padding: 10px;
 }
 .view-id-search ul li:hover{
-	background: #A8A8A8;
+	background: #f2f2f2;
 }
 .view-id-search ul li:nth-child(3n){
 	border-right: 1px solid #e0e0e0;
