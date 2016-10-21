@@ -1,37 +1,37 @@
 jQuery( document ).ready(function( $ ) {
 
 /*=================================================
-1 - PRELOADER 
+1 - PRELOADER
 =================================================*/
 
-$(window).load(function() { 
-  $('#status').fadeOut(); 
-  $('#preloader').delay(150).fadeOut('slow'); 
- 
+$(window).load(function() {
+  $('.front-page #status').fadeOut();
+  $('.front-page #preloader').delay(150).fadeOut('slow'); 
+
 });
 
 /*=================================================
-2 - HEADER 
+2 - HEADER
 =================================================*/
 
 jQuery(window).scroll(function () {
     if (jQuery(window).scrollTop() > 0) {
             jQuery('header').addClass('small');
     } else {
-         jQuery('header').removeClass('small');  
-    }   
+         jQuery('header').removeClass('small');
+    }
   });
 
 jQuery(window).load(function () {
     if (jQuery(window).scrollTop() > 0) {
             jQuery('header').addClass('small');
     } else {
-         jQuery('header').removeClass('small');  
-    }   
+         jQuery('header').removeClass('small');
+    }
   });
 
 /*=================================================
-3 - SERVICE TAB 
+3 - SERVICE TAB
 =================================================*/
 
 
@@ -39,30 +39,30 @@ jQuery(document).ready(function() {
 "use strict";
 var alltabs = $('#service_tab_triggers li');
 
-$(".service_wrapper").hide(); 
-$(".service_wrapper:first").show(); 
+$(".service_wrapper").hide();
+$(".service_wrapper:first").show();
 
   $("#service_tab_triggers li a").click(function() {
 
-  
+
 	if (  $(this).parent('li').hasClass("active")       ) {
-			
+
 		return false;
 
     } else {
 
     $(alltabs).removeClass("active");
     $(this).parent('li').addClass("active");
-    $(".service_wrapper").hide(); 
+    $(".service_wrapper").hide();
 
-    var activeTab = $(this).attr("href"); 
+    var activeTab = $(this).attr("href");
 
-    $(activeTab).fadeIn(600); 
+    $(activeTab).fadeIn(600);
 
 
     return false;
 
-    				
+
     };
 
   });
@@ -71,7 +71,7 @@ $(".service_wrapper:first").show();
 
 
 /*=================================================
-4 - PARALLAX VIDEO  
+4 - PARALLAX VIDEO
 =================================================*/
 
 
@@ -82,7 +82,7 @@ jQuery(document).ready(function() {
 }
 
 /*=================================================
-5 - SKILLS 
+5 - SKILLS
 =================================================*/
 
 jQuery(window).load(function() {
@@ -95,7 +95,7 @@ jQuery(window).load(function() {
 
 
 /*=================================================
-6 - ISOTOPE FOR PORTFOLIO 
+6 - ISOTOPE FOR PORTFOLIO
 =================================================*/
 
 
@@ -105,7 +105,7 @@ jQuery(document).ready(function() {
     var $container = $('.grid');
 
 
-    
+
         // initialize isotope
          $container.isotope({
           masonry: {
@@ -120,12 +120,12 @@ jQuery(document).ready(function() {
           $container.isotope({ filter: selector });
           return false;
         });
-         
+
  });
 
 
 /*=================================================
-7 - FILTERS FOR PORTFOLIO 
+7 - FILTERS FOR PORTFOLIO
 =================================================*/
 
 
@@ -146,26 +146,26 @@ jQuery(document).ready(function() {
 
 
 jQuery(window).load(function(){
-  
+
   (function(){
-  
+
     var container = $( "#portfoliod" );
     var $items = $('.grid > div.portfolio-item');
      index = $items.length;
       $('.grid .portfolio-item').click(function(){
 
       if ($(this).hasClass('active')){
-      } else 
+      } else
       { lastIndex = index;
       index = $(this).index();
       $items.removeClass('active');
       $(this).addClass('active');
 
-      var myUrl = $(this).find('.ajax-trigger').attr("href") + " .item-data"; 
+      var myUrl = $(this).find('.ajax-trigger').attr("href") + " .item-data";
 
-    $('html, body').animate({        scrollTop: $("#portfolio").offset().top + 300  }, 300);// Custom scroll to #portfoliod div 
+    $('html, body').animate({        scrollTop: $("#portfolio").offset().top + 300  }, 300);// Custom scroll to #portfoliod div
       $('.loading_icon').css({ "display": "block", "opacity": "0" }).animate({ "opacity": "0.8" }, 300);
-      $('#portfolioData').animate({opacity:0}, 400,function(){  
+      $('#portfolioData').animate({opacity:0}, 400,function(){
         $("#portfolioData").load(myUrl,function(){   //FIX THE HEIGHT BUG ON FLEXSLIDER
             var $helper = $('.helper');
             var height = $helper.height();
@@ -183,14 +183,14 @@ jQuery(window).load(function(){
                autoHeight : true,
             transitionStyle:"fade"
           });
-            
+
         });
         $('#portfolioData').animate({opacity:1}, 200);
 
       });
-      
+
       //SLIDE UP
-        
+
       $('#portfoliod').slideUp(400, function(){
         $('.loading_icon').delay(800).animate({ "opacity": "0" }, 100,function(){
           $('.loading_icon').css("display","none");
@@ -204,11 +204,11 @@ jQuery(window).load(function(){
 
       }
 
-      return false;       
-      
+      return false;
+
       });
 
-    //AJAX CLOSE 
+    //AJAX CLOSE
     $('#ajax_close').click(function() {
       $('#portfoliod').slideUp(400);
       $items.removeClass('benext beprev active') ;
@@ -216,7 +216,7 @@ jQuery(window).load(function(){
         });
 
   })();
-  
+
 });
 
 /*=================================================
@@ -246,7 +246,7 @@ var $filters = $("#filters")
 
 
 $(two_columns).click(function() {
-  event.returnValue = false; 
+  event.returnValue = false;
   $(cont_portfolio).removeClass('two_columns four_columns').addClass('two_columns');
   $filters.find('li.active a').trigger('click');
 });
@@ -273,7 +273,7 @@ $(four_columns).click(function() {
 
 jQuery(document).ready(function(){
  "use strict";
-  
+
 $('.main_nav').onePageNav({
   currentClass: 'active',
   changeHash: false,
@@ -311,21 +311,21 @@ $('.responsive_nav').onePageNav({
 12 - CLIENTS CAROUSEL
 =================================================*/
 jQuery(document).ready(function() {
- 
+
   $("#clients").owlCarousel({
       navigation : false, // Show next and prev buttons
       slideSpeed : 300,
       paginationSpeed : 400,
       singleItem:true
   });
- 
+
 });
 
  /*=================================================
 13 - TESTIMONIALS CAROUSEL
 =================================================*/
 jQuery(document).ready(function() {
- 
+
   $("#testimonials_slide").owlCarousel({
       navigation : false, // Show next and prev buttons
       slideSpeed : 300,
@@ -334,7 +334,7 @@ jQuery(document).ready(function() {
        autoHeight : true,
     transitionStyle:"fade"
   });
- 
+
 });
 
 
@@ -344,7 +344,7 @@ jQuery(document).ready(function() {
 
 
 jQuery(document).ready(function() {
- 
+
   $(".portfolio_slide").owlCarousel({
       navigation : false, // Show next and prev buttons
       slideSpeed : 300,
@@ -353,7 +353,7 @@ jQuery(document).ready(function() {
        autoHeight : true,
     transitionStyle:"fade"
   });
- 
+
 });
 
 
@@ -361,11 +361,11 @@ jQuery(document).ready(function() {
 15 - BLOG CAROUSEL
 =================================================*/
 jQuery(document).ready(function() {
- 
+
   var owl = $("#blog-carousel");
- 
+
   owl.owlCarousel({
- 
+
       pagination: false,
       items : 2, //10 items above 1000px browser width
       itemsDesktop : [1000,2], //5 items between 1000px and 901px
@@ -373,9 +373,9 @@ jQuery(document).ready(function() {
       itemsTablet: [600,1], //2 items between 600 and 0
       itemsMobile : false, // itemsMobile disabled - inherit from itemsTablet option
       addClassActive : true,
-    
+
   });
- 
+
   // Custom Navigation Events
   $(".read_next_story").click(function(){
     owl.trigger('owl.next');
@@ -399,29 +399,29 @@ jQuery(document).ready(function() {
 var alltabs = $('.trigger_sidebar li');
 
 $(".post-list-wrapper").hide(); // OK
-$(".post-list-wrapper:first").show();  // OK 
+$(".post-list-wrapper:first").show();  // OK
 
   $(".trigger_sidebar li a").click(function() {
 
-  
+
   if (  $(this).parent('li').hasClass("active")       ) {
-      
+
     return false;
 
     } else {
 
     $(alltabs).removeClass("active");
     $(this).parent('li').addClass("active");
-    $(".post-list-wrapper").hide(); 
+    $(".post-list-wrapper").hide();
 
-    var activeTab = $(this).attr("href"); 
+    var activeTab = $(this).attr("href");
 
-    $(activeTab).fadeIn(600); 
+    $(activeTab).fadeIn(600);
 
 
     return false;
 
-            
+
     };
 
   });
@@ -457,7 +457,7 @@ jQuery(document).ready(function() {
       $tabs.find('.tabs-tabs .tabs-tab.'+tabname).addClass('active').fadeIn(300);
       return false;
     });
-  }); 
+  });
 
 
 /*=================================================
@@ -467,7 +467,7 @@ jQuery(document).ready(function() {
    jQuery(document).ready(function($){
 
       var h3trigger = $("h3.trigger");
-            $(".toggle_container").hide(); 
+            $(".toggle_container").hide();
             $(h3trigger).click(function(){
                 $(this).toggleClass("active").next().slideToggle("fast");
                 return false;
@@ -476,12 +476,12 @@ jQuery(document).ready(function() {
 
 
 /*=================================================
-1 - RESPONSIVE MENU 
+1 - RESPONSIVE MENU
 =================================================*/
 
 
 jQuery(document).ready(function(){
-"use strict";  
+"use strict";
 var menu_trigger = jQuery('.menu_trigger');
 var areamenu = jQuery('.mobileAreaMenu');
 var all_li =jQuery('.mobileAreaMenu li');
@@ -495,7 +495,7 @@ if (jQuery(menu_trigger).hasClass('active')){
         jQuery(areamenu).css("display","");
         jQuery(menu_trigger).removeClass("active");
       });
-          
+
       } else {
         jQuery(areamenu).slideDown(200,function(){
           //
@@ -506,7 +506,7 @@ if (jQuery(menu_trigger).hasClass('active')){
 });
 
 jQuery('.mobileAreaMenu a').click(function(){
-  
+
   jQuery(areamenu).slideUp(200);
   jQuery(menu_trigger).removeClass("active");
 });
@@ -516,7 +516,7 @@ jQuery('.mobileAreaMenu a').click(function(){
 //RESPONSIVE STYLE 4 VIDEO RESPONSIVE BACKGROUND
 
 jQuery(document).ready(function($) {
-  
+
 "use strict";
 var height_video = $(window).width();
 var height_responsive = (height_video / 1.79011) + 1;
