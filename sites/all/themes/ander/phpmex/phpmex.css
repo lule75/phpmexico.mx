@@ -16,7 +16,6 @@ h1,h2,h3,h4,h5,
 	text-align: center;
 }
 
-
 /*=== Defining purple color in theme links ===*/
 a, a:active, a:hover, a:link, a:visited {
  color:#8796db;
@@ -33,13 +32,12 @@ a, a:active, a:hover, a:link, a:visited {
 	background-color: #00cae9;
 }
 
-
-/*====== reduciendo el padding div section en interiores ===*/
+/*====== Reduciendo el padding div section en interiores ===*/
 .section{
 	padding: 40px 20px 160px;
 }
 
-/*=== Eliminando la linea de el menu para evitar que se encime al logo ===*/
+/*=== Eliminando la linea del menu para evitar que se encime al logo ===*/
 .admin-menu header.transparent_menu, .admin-menu header.white_menu{
 	border: none;
 }
@@ -254,7 +252,26 @@ th{
 	margin-bottom: 40px;
 }
 
-
+/*== Community page css List of developers ==*/
+.view-id-search ul{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.view-id-search ul li{
+	width: 33.3333%;
+	background: #f2f2f2;
+	border-top: 1px solid #e0e0e0;
+	border-left: 1px solid #e0e0e0;
+	box-sizing: border-box;
+	padding: 10px;
+}
+.view-id-search ul li:hover{
+	background: #A8A8A8;
+}
+.view-id-search ul li:nth-child(3n){
+	border-right: 1px solid #e0e0e0;
+}
 
 /*===== MEDIA QUERY CONFIG ===*/
 
@@ -278,6 +295,14 @@ th{
 	}
 	.g-recaptcha iframe{
 		width: 100% !important;
+	}
+	/*== Comunity developers list ==*/
+	.view-id-search ul{
+		display: block;
+	}
+	.view-id-search ul li{
+			width: auto;
+		  text-align: center;
 	}
 
 }
