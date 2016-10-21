@@ -5,8 +5,8 @@ jQuery( document ).ready(function( $ ) {
 =================================================*/
 
 $(window).load(function() {
-  $('.front-page #status').fadeOut();
-  $('.front-page #preloader').delay(150).fadeOut('slow'); 
+  $('#status').fadeOut(); 
+  $('#preloader').delay(150).fadeOut('slow');
 
 });
 
