@@ -257,12 +257,12 @@ th{
 }
 
 /*== Community page css List of developers ==*/
-.view-id-search ul{
+.view-id-search .view-content ul{
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
-.view-id-search ul li{
+.view-id-search .view-content ul li{
 	width: 33.3333%;
 	background: #fafafa;
 	border-top: 1px solid #e0e0e0;
