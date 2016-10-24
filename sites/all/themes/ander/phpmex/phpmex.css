@@ -33,7 +33,7 @@ a, a:active, a:hover, a:link, a:visited {
 }
 
 /*== Boton de Regidtro en slide ==*/
-.block-btn-registro{
+.block-btn-registro a{
 	position: absolute;
 	left: 0;
 	right: 0;
