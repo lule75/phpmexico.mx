@@ -47,34 +47,6 @@
 		}
 		
 	?>
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "Organization",
-  "url": "http://www.phpmexico.mx",
-  "logo": "http://phpmexico.mx/sites/default/files/logo_huichol.png",
-  "place": "Mexico City",
-  "description": "La comunidad de PHP más avanzada de México. Nosotros tomamos en serio PHP y queremos regresar la dignidad al lenguaje, nos reunimos mensualmente en la ciudad de México a compartir conocimiento.",
-  "sponsor": "Indava",
-  "disambiguatingDescription": "Comunidad de programadores PHP en México",
-  "sameAs": [
-    "https://www.facebook.com/pehacheperos",
-    "https://twitter.com/phpmx",
-    "https://www.meetup.com/PHP-The-Right-Way",
-    "https://phpmx.slack.com/"
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "WebSite",
-  "name": "PHP México",
-  "alternateName": "PHP Mexico",
-  "url": "http://www.phpmexico.mx"
-}
-</script>
 
 </body>
 </html>
