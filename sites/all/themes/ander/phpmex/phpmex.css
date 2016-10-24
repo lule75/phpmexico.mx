@@ -40,8 +40,9 @@ a, a:active, a:hover, a:link, a:visited {
 	width: 320px;
 	margin: auto;
 	z-index: 3;
-	top: -320px;
+	top: -280px;
 	border-radius: 8px;
+	font-size: 1.8em;
 }
 /*=== Modifying the purple color in hover input elements  ===*/
 .form-actions.form-wrapper input.form-submit:hover{
@@ -335,6 +336,13 @@ th{
 		border-bottom: 1px solid #e0e0e0;
 	}
 
+	/*== boton registro ==*/
+	.block-btn-registro a{
+		top: -90px;
+		font-size: 1em;
+		padding: 12px 10px !important;
+	}
+
 }
 
 /* media query only tablet */
@@ -380,6 +388,11 @@ th{
 		display: block;
 		line-height: 1.4em;
 	}
+	.block-btn-registro a{
+		font-size: 1.2em;
+		width: 190px;
+		top: -110px;
+	}
 }
 /* media query only laptop*/
 @media screen and (max-width: 990px) {
@@ -389,5 +402,9 @@ th{
   }
 	.contact-form input#comment-email{
 		float: none;
+	}
+	.block-btn-registro a{
+		top: -198px;
+		width: 254px;
 	}
 }
