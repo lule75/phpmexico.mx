@@ -31,6 +31,18 @@ a, a:active, a:hover, a:link, a:visited {
     color: #FFFFFF;
 		white-space: inherit;
 }
+
+/*== Boton de Regidtro en slide ==*/
+.block-btn-registro{
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 320px;
+	margin: auto;
+	z-index: 3;
+	top: -320px;
+	border-radius: 8px;
+}
 /*=== Modifying the purple color in hover input elements  ===*/
 .form-actions.form-wrapper input.form-submit:hover{
 	background-color: #00cae9;
