@@ -311,18 +311,18 @@ function ander_prev_next($nid = null, $ntype = null, $op = 'p') {
 function ander_preprocess_html(&$variables) {
 	global $base_url;
 	//add css
-	drupal_add_css('http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700', array('type' => 'external','media' => 'all'));
-	drupal_add_css('http://fonts.googleapis.com/css?family=PT+Sans:400,700', array('type' => 'external','media' => 'all'));
-	drupal_add_css('http://fonts.googleapis.com/css?family=Lato:100,300,400', array('type' => 'external','media' => 'all'));
-	drupal_add_css('http://fonts.googleapis.com/css?family=Roboto:400,100,700', array('type' => 'external','media' => 'all'));
-	drupal_add_css('http://fonts.googleapis.com/css?family=Raleway:400,300,700', array('type' => 'external','media' => 'all'));
-	drupal_add_css('http://fonts.googleapis.com/css?family=Ubuntu:300,400,700', array('type' => 'external','media' => 'all'));
-	drupal_add_css('http://fonts.googleapis.com/css?family=Amatic+SC:400,700', array('type' => 'external','media' => 'all'));
-	drupal_add_css('http://fonts.googleapis.com/css?family=Dancing+Script:700', array('type' => 'external','media' => 'all'));
-	drupal_add_css('http://fonts.googleapis.com/css?family=Oswald:400,700,300', array('type' => 'external','media' => 'all'));
-	drupal_add_css('http://fonts.googleapis.com/css?family=Josefin+Slab:300,400,600', array('type' => 'external','media' => 'all'));
-	drupal_add_css('http://fonts.googleapis.com/css?family=Josefin+Slab:300,400,600', array('type' => 'external','media' => 'all'));
-	drupal_add_css('http://fonts.googleapis.com/css?family=Six+Caps', array('type' => 'external','media' => 'all'));
+	drupal_add_css('//fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700', array('type' => 'external','media' => 'all'));
+	drupal_add_css('//fonts.googleapis.com/css?family=PT+Sans:400,700', array('type' => 'external','media' => 'all'));
+	drupal_add_css('//fonts.googleapis.com/css?family=Lato:100,300,400', array('type' => 'external','media' => 'all'));
+	drupal_add_css('//fonts.googleapis.com/css?family=Roboto:400,100,700', array('type' => 'external','media' => 'all'));
+	drupal_add_css('//fonts.googleapis.com/css?family=Raleway:400,300,700', array('type' => 'external','media' => 'all'));
+	drupal_add_css('//fonts.googleapis.com/css?family=Ubuntu:300,400,700', array('type' => 'external','media' => 'all'));
+	drupal_add_css('//fonts.googleapis.com/css?family=Amatic+SC:400,700', array('type' => 'external','media' => 'all'));
+	drupal_add_css('//fonts.googleapis.com/css?family=Dancing+Script:700', array('type' => 'external','media' => 'all'));
+	drupal_add_css('//fonts.googleapis.com/css?family=Oswald:400,700,300', array('type' => 'external','media' => 'all'));
+	drupal_add_css('//fonts.googleapis.com/css?family=Josefin+Slab:300,400,600', array('type' => 'external','media' => 'all'));
+	drupal_add_css('//fonts.googleapis.com/css?family=Josefin+Slab:300,400,600', array('type' => 'external','media' => 'all'));
+	drupal_add_css('//fonts.googleapis.com/css?family=Six+Caps', array('type' => 'external','media' => 'all'));
 	drupal_add_css(path_to_theme().'/css/reset.css', array('type' => 'file', 'scope' => 'header'));
 	drupal_add_css(path_to_theme().'/css/bootstrap.css', array('type' => 'file', 'scope' => 'header'));
 	drupal_add_css(path_to_theme().'/css/prettyPhoto.css', array('type' => 'file', 'scope' => 'header'));
@@ -424,7 +424,7 @@ function ander_preprocess_html(&$variables) {
 	//add js
 	drupal_add_js(path_to_theme().'/js/navi-update.js', array('type' => 'file', 'scope' => 'header'));
 	#drupal_add_js('http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js', array('type' => 'external', 'scope' => 'header'));
-	drupal_add_js('http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js', array('type' => 'external', 'scope' => 'header'));
+	drupal_add_js('//ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js', array('type' => 'external', 'scope' => 'header'));
 	drupal_add_js(path_to_theme().'/js/bootstrap.min.js', array('type' => 'file', 'scope' => 'header'));
 	drupal_add_js(path_to_theme().'/js/jquery.prettyPhoto.js', array('type' => 'file', 'scope' => 'header'));
 	drupal_add_js(path_to_theme().'/js/modernizr.custom.js', array('type' => 'file', 'scope' => 'header'));
