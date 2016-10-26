@@ -335,6 +335,7 @@ th{
 	font-weight: 100;
 	font-size: 2.6em;
 	margin: 40px auto 20px;
+	line-height: 1.2em;
 }
 
 .not-found-info h1 span{
@@ -383,6 +384,26 @@ th{
 		top: -90px;
 		font-size: 1em;
 		padding: 12px 10px !important;
+	}
+
+	/*== Page not found animation ==*/
+	.not-found-image{
+		width: 320px;
+		height: 151px;
+	}
+	.not-found-image .animation{
+		width: 151px;
+		height: 156px;
+
+	}
+	.not-found-image img{
+		height: 156px;
+	  max-width: inherit;
+		animation: elephant_movil 2s steps(39) infinite;
+	}
+	/* animacion page 404 */
+	@keyframes elephant_movil {
+		 100% { margin-left: -6260px; }
 	}
 
 }
