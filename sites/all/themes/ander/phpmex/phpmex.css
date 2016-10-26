@@ -300,6 +300,19 @@ th{
     margin: 2px 6px 2px 0;
 }
 
+/*== 404 PAGE CSS ==*/
+.not-found-page{
+	width: 499px;
+	height: 236px;
+	background-image:url('../images/404-number.png');
+  background-repeat:no-repeat;
+  background-size:cover;
+	margin: auto;
+}
+
+
+
+
 /*===== MEDIA QUERY CONFIG ===*/
 
 /* media query only mobile */
