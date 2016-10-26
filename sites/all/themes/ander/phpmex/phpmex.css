@@ -310,14 +310,14 @@ th{
 	margin: auto;
 }
 .not-found-image .animation{
-	width: 241px;
+	width: 242px;
 	height: 236px;
 	overflow: hidden;
 	margin: auto;
 
 }
 .not-found-image img{
-	height: 242px;
+	height: 241px;
   max-width: inherit;
 	animation: elephant 2s steps(39) infinite;
 	margin-top: -4px;
