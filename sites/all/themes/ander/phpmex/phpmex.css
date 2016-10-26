@@ -319,21 +319,29 @@ th{
 .not-found-image img{
 	height: 241px;
   max-width: inherit;
-	animation: elephant 2s steps(40) infinite;
+	animation: elephant 2s steps(39) infinite;
+	margin-top: -4px;
 }
-/* animacion page 404 */
-@keyframes elephant {
-   100% { margin-left: -9597px; }
-}
-
-
+	/* animacion page 404 */
+	@keyframes elephant {
+	   100% { margin-left: -9597px; }
+	}
 .not-found-info{
 	text-align: center;
   max-width: 580px;
   margin: auto;
+	line-height: 24px;
+}
+.not-found-info h1{
+	font-weight: 100;
+	font-size: 2.6em;
+	margin: 40px auto 20px;
 }
 
-
+.not-found-info h1 span{
+	color: #8796db;
+  margin-right: 16px;
+}
 
 /*===== MEDIA QUERY CONFIG ===*/
 
