@@ -317,7 +317,7 @@ th{
 	background-size: cover;
 	background-position: left center;
 	margin: auto;
-	animation: elephant 1s steps(10) infinite;
+	animation: elephant 2s steps(40) infinite;
 
 }
 /* animacion page 404 */
