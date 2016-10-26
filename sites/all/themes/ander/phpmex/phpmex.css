@@ -301,7 +301,7 @@ th{
 }
 
 /*== 404 PAGE CSS ==*/
-.not-found-page{
+.not-found-image{
 	width: 499px;
 	height: 236px;
 	background-image:url('../images/404-number.png');
@@ -309,7 +309,20 @@ th{
   background-size:cover;
 	margin: auto;
 }
-
+.not-found-image .animation{
+	width: 241px;
+	height: 236px;
+	background-image: : url('../images/elephant_sprite.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: left center;
+	margin: auto;
+}
+.not-found-info{
+	text-align: center;
+  max-width: 580px;
+  margin: auto;
+}
 
 
 
