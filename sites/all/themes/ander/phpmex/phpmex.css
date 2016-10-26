@@ -317,7 +317,15 @@ th{
 	background-size: cover;
 	background-position: left center;
 	margin: auto;
+	animation: elephant 1s steps(10) infinite;
+
 }
+/* animacion page 404 */
+@keyframes elephant {
+   100% { background-position: -15880px; }
+}
+
+
 .not-found-info{
 	text-align: center;
   max-width: 580px;
