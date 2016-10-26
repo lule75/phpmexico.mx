@@ -323,7 +323,7 @@ th{
 }
 /* animacion page 404 */
 @keyframes elephant {
-   100% { background-position: -15880px; }
+   100% { margin-left: -9597px; }
 }
 
 
