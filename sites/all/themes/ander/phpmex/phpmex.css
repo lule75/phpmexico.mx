@@ -317,14 +317,14 @@ th{
 
 }
 .not-found-image img{
-	height: 241px;
+	height: 242px;
   max-width: inherit;
 	animation: elephant 2s steps(39) infinite;
 	margin-top: -4px;
 }
 	/* animacion page 404 */
 	@keyframes elephant {
-	   100% { margin-left: -9672px; }
+	   100% { margin-left: -9670px; }
 	}
 .not-found-info{
 	text-align: center;
