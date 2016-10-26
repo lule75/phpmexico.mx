@@ -310,8 +310,8 @@ th{
 	margin: auto;
 }
 .not-found-image .animation{
-	width: 242px;
-	height: 236px;
+	width: 234px;
+	height: 241px;
 	overflow: hidden;
 	margin: auto;
 
@@ -320,11 +320,10 @@ th{
 	height: 241px;
   max-width: inherit;
 	animation: elephant 2s steps(39) infinite;
-	margin-top: -4px;
 }
 	/* animacion page 404 */
 	@keyframes elephant {
-	   100% { margin-left: -9670px; }
+	   100% { margin-left: -9665px; }
 	}
 .not-found-info{
 	text-align: center;
