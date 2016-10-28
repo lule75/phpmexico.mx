@@ -20,7 +20,7 @@ h1,h2,h3,h4,h5,
 	float: none;
 	padding: 5px 5px 5px 10px;
 }
-.main_nav li.expanded:hover ul li{
+.main_nav li.expanded ul li{
 	float: none;
 	background: #8796db;
 }
