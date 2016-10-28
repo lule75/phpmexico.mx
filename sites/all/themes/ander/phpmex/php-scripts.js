@@ -12,16 +12,4 @@ Drupalmex JS
     }
   };
 
-  Drupal.behaviors.dropDownMenu = {
-    attach: function (context, settings) {
-      $(".main_nav li.expanded").mouseover(function(){
-       $(this).find("ul").slideDown("fast");
-      });
-      $(".main_nav li.expanded ul").mouseout(function(){
-       $(this).slideUp("slow");
-      });
-    }
-  }
-
-
 })(jQuery, Drupal);
