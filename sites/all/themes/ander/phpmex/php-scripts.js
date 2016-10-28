@@ -16,7 +16,7 @@ Drupalmex JS
     attach: function (context, settings) {
       $(".main_nav li.expanded").mouseover(function(){
        $(this).find("ul").slideDown("fast");
-       $(".main_nav li.expanded").not(this).find("ul").slideUp("fast");
+       $(".main_nav li").not(this).find("ul").slideUp("fast");
       });
     }
   }
