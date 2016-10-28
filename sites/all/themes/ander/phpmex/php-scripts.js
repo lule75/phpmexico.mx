@@ -22,7 +22,7 @@ Drupalmex JS
       $( ".main_nav li.expanded ul" ).each(function() {
         var altura = $(this).height();
         console.log(altura);
-        $(this).hasClass("active").css("height", altura);
+        $(".main_nav li.expanded ul.active").css("height", altura);
       });
     }
   }
