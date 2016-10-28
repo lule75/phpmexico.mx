@@ -9,7 +9,7 @@ h1,h2,h3,h4,h5,
 }
 /*=== Drop down menu ==*/
 .main_nav li.expanded ul{
-	
+	display: none;
 	position: absolute;
 	background: #fff;
 	min-width: 180px;
