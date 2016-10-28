@@ -17,11 +17,9 @@ h1,h2,h3,h4,h5,
 	display: block;
 }
 .main_nav li.expanded ul li{
-	float: none;
 	padding: 5px 5px 5px 10px;
 }
-.main_nav li.expanded ul li{
-	float: none;
+.main_nav li.expanded ul li:hover{
 	background: #8796db;
 }
 /*=== Big size title class that appears in roadmap basic page ==*/
