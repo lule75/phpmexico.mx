@@ -7,7 +7,20 @@ h1,h2,h3,h4,h5,
 .page_subtitle{
 	color: #4a4a4a;
 }
+/*=== Drop down menu ==*/
+.main_nav li.expanded ul{
+	display: none;
+}
 
+.main_nav li.expanded:hover ul{
+	display: block;
+	background: #fff;
+}
+
+.main_nav li.expanded:hover ul li{
+	float: none;
+	padding: 5px 5px 5px 10px;
+}
 /*=== Big size title class that appears in roadmap basic page ==*/
 .big-title{
 	text-align: center;
