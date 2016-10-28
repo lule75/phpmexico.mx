@@ -12,7 +12,13 @@ Drupalmex JS
     }
   };
 
-  
+  Drupal.behaviors.dropDownMenu = {
+    attach: function (context, settings) {
+      $(".main_nav li.expanded").mouseover(function(){
+       $(this).find("ul").slideDown("fast");
+      });
+    }
+  }
 
 
 })(jQuery, Drupal);
