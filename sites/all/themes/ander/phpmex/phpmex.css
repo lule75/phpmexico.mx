@@ -15,6 +15,7 @@ h1,h2,h3,h4,h5,
 
 .main_nav li.expanded:hover ul{
 	background: #fff;
+	display: block;
 }
 .main_nav li.expanded ul li{
 	float: none;
