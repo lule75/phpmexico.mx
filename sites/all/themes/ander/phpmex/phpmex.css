@@ -11,10 +11,9 @@ h1,h2,h3,h4,h5,
 .main_nav li.expanded ul{
 	display: none;
 	position: absolute;
-}
-
-.main_nav li.expanded:hover ul{
 	background: #fff;
+}
+.main_nav li.expanded:hover ul{
 	display: block;
 }
 .main_nav li.expanded ul li{
