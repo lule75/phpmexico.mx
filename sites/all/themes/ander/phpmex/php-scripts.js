@@ -15,14 +15,9 @@ Drupalmex JS
   Drupal.behaviors.dropDownMenu = {
     attach: function (context, settings) {
       $(".main_nav li.expanded").mouseover(function() {
-          $(this).find(" > ul").addClass("active");
+          $(this).find(" > ul").addClass("active").slideToggle();
       }).mouseout(function() {
-          $(this).find(" > ul").removeClass("active");
-      });
-      $( ".main_nav li.expanded ul" ).each(function() {
-        var altura = $(this).height();
-        console.log(altura);
-        $(".main_nav li.expanded ul.active").css("height", altura);
+          $(this).find(" > ul").removeClass("active").slideToggle();
       });
     }
   }
