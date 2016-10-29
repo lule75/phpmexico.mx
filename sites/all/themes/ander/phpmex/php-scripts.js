@@ -14,8 +14,9 @@ Drupalmex JS
 
   Drupal.behaviors.movilMenu = {
     attach: function (context, settings) {
-      $( ".mobileAreaMenu ul li.expanded" ).on( "click", function() {
-        console.log( "botate" );
+      $( ".mobileAreaMenu ul li.expanded" ).click(function() {
+        event.preventDefault();
+        $(this).find("ul").slideToggle("fast");
       });
     }
   };
