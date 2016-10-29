@@ -12,10 +12,10 @@ Drupalmex JS
     }
   };
 
-  Drupal.behavior.movilMenu{
+  Drupal.behaviors.movilMenu{
     attach: function (context, settings) {
-      $( ".mobileAreaMenu ul li.expanded" ).click(function() {
-        alert( "Handler for .click() called." );
+      $(".mobileAreaMenu ul li.expanded").click(function(){
+        $(this).find("ul").toggleClass("activo");
       });
     }
   };
