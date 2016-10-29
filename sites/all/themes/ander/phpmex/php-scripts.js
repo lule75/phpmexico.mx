@@ -12,7 +12,7 @@ Drupalmex JS
     }
   };
 
-  Drupal.behaviors.movilMenu{
+  Drupal.behaviors.movilMenu = {
     attach: function (context, settings) {
       $(".mobileAreaMenu ul li.expanded").click(function(){
         $(this).find("ul").toggleClass("activo");
