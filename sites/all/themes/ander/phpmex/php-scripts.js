@@ -12,4 +12,12 @@ Drupalmex JS
     }
   };
 
+  Drupal.behavior.movilMenu{
+    attach: function (context, settings) {
+      $(".mobileAreaMenu ul li.expanded").click(function(){
+        $(this).find("ul").toggleClass("activo");
+      });
+    }
+  };
+
 })(jQuery, Drupal);
