@@ -30,6 +30,13 @@ h1,h2,h3,h4,h5,
 .main_nav li.expanded ul li:hover{
 	background: #8796db;
 }
+
+/*=== Mobile dropdown menu ==*/
+.mobileAreaMenu ul li.expanded ul{
+	display: none;
+}
+
+
 /*=== Big size title class that appears in roadmap basic page ==*/
 .big-title{
 	text-align: center;
