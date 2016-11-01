@@ -7,10 +7,10 @@ h1,h2,h3,h4,h5,
 .page_subtitle{
 	color: #4a4a4a;
 }
-
 .container {
     word-wrap: break-word;
 }
+
 /*=== Drop down menu ==*/
 .main_nav li.expanded ul{
 	position: absolute;
@@ -36,7 +36,16 @@ h1,h2,h3,h4,h5,
 	display: none;
 }
 
+/*=== List content ===*/
+.container ul li{
+	list-style: inherit;
+	list-style-position: inside;
+}
 
+.related-post{
+	background: #f6f6f6;
+	padding: 1px 20px;
+}
 /*=== Big size title class that appears in roadmap basic page ==*/
 .big-title{
 	text-align: center;
